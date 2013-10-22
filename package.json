@@ -1,0 +1,20 @@
+{
+  "name": "draconian",
+  "version": "0.0.1",
+  "description": "A draconian type checker for JavaScript functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:myou/draconian.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "type",
+    "checker"
+  ],
+  "author": "Max You <max.you15@gmail.com>",
+  "license": "MIT"
+}
