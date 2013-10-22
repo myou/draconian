@@ -16,5 +16,8 @@
     "checker"
   ],
   "author": "Max You <max.you15@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "*"
+  }
 }
