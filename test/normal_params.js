@@ -1,4 +1,5 @@
 
+// module dependencies
 var expect = require('chai').expect;
 
 var Drac = require('../');
@@ -8,7 +9,7 @@ describe('regular functions, typeof rules', function() {
     params: {
       num1: { typeOf: 'number' },
       num2: { typeOf: 'number' },
-      str: {typeOf: 'string' }
+      str: { typeOf: 'string' }
     }
   }, function(num1, num2, str) { return num1 + num2 + str; });
 
