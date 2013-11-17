@@ -1,10 +1,9 @@
 
-// module dependencies
 var expect = require('chai').expect;
 
 var Drac = require('../');
 
-describe('typeof rules', function() {
+describe('type rules', function() {
   var testFunc = Drac.define({
     params: {
       num1: { type: 'number' },
@@ -37,7 +36,7 @@ describe('typeof rules', function() {
   });
 });
 
-describe('typeof rules with optional parameters', function() {
+describe('type rules with optional parameters', function() {
   var testFunc = Drac.define({
     params: {
       num1: {
