@@ -7,9 +7,9 @@ var Drac = require('../');
 describe('regular functions, typeof rules', function() {
   var testFunc = Drac.define({
     params: {
-      num1: { typeOf: 'number' },
-      num2: { typeOf: 'number' },
-      str: { typeOf: 'string' }
+      num1: { type: 'number' },
+      num2: { type: 'number' },
+      str: { type: 'string' }
     }
   }, function(num1, num2, str) { return num1 + num2 + str; });
 
