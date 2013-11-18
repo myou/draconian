@@ -3,12 +3,12 @@ var expect = require('chai').expect;
 
 var Drac = require('../');
 
-describe('regular functions, typeof rules', function() {
+describe('type rules', function() {
   var testFunc = Drac.define({
     params: {
-      num1: { typeOf: 'number' },
-      num2: { typeOf: 'number' },
-      str: {typeOf: 'string' }
+      num1: { type: 'number' },
+      num2: { type: 'number' },
+      str: { type: 'string' }
     }
   }, function(num1, num2, str) { return num1 + num2 + str; });
 
@@ -33,5 +33,27 @@ describe('regular functions, typeof rules', function() {
     expect(function() {
       testFunc(1, 2, 3);
     }).to.throw(Error);
+  });
+});
+
+describe('type rules with optional parameters', function() {
+  var testFunc = Drac.define({
+    params: {
+      num1: {
+        type: 'number'
+      },
+      num2: {
+        type: 'number'
+      },
+      str: {
+        type: 'string',
+        optional: true
+      }
+    }
+  }, function(num1, num2, str) { return num1 + num2 + str; });
+
+  it('should not throw error on missing optional parameters', function () {
+    var result = testFunc(1, 2);
+    expect(result).to.be.NaN;
   });
 });
