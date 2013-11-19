@@ -53,6 +53,10 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.0.3
+
+- [Feature] add parameter instance checking
+
 0.0.2
 
 - [Feature] enable optional parameters
