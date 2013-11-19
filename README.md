@@ -55,10 +55,10 @@ contact the author Max You at max.you15@gmail.com
 
 0.0.2
 
-[Feature] enable optional parameters
-[Refactor] perform massive refactor
-[Docs] add basic README.md
+- [Feature] enable optional parameters
+- [Refactor] perform massive refactor
+- [Docs] add basic README.md
 
 0.0.1
 
-[Feature] add parameter type checking
+- [Feature] add parameter type checking
