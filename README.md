@@ -39,6 +39,10 @@ And call it:
 
 JavaScript native type, same as typeof
 
+#### instance
+
+JavaScript parent constructor function, same as instanceof
+
 #### optional
 
 Whether that parameter can be undefined, defaults to false
