@@ -63,6 +63,10 @@ And call it:
     // whether the parameter cannot be null
     // { notNull: true }
 
+    // notEmpty
+    // whether the parameter cannot be empty
+    // { notEmpty: true }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
