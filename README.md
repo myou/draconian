@@ -43,6 +43,10 @@ JavaScript native type, same as typeof
 
 JavaScript parent constructor function, same as instanceof
 
+#### match
+
+JavaScript string regex match
+
 #### optional
 
 Whether that parameter can be undefined, defaults to false
