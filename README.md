@@ -55,6 +55,10 @@ And call it:
     // whether the parameter matches /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+$/
     // { isEmail: true }
 
+    // isUrl
+    // whether the parameter matches /^https?:\/\/[a-zA-Z0-9\/._-]+$/
+    // { isUrl: true }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
