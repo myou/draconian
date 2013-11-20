@@ -47,6 +47,10 @@ JavaScript parent constructor function, same as instanceof
 
 JavaScript string regex match
 
+#### notMatch
+
+opposite of match
+
 #### optional
 
 Whether that parameter can be undefined, defaults to false
