@@ -35,25 +35,29 @@ And call it:
 
 ### Parameter Options
 
-#### type
+    // type
+    // JavaScript native type
+    // { type: 'number' }
 
-JavaScript native type, same as typeof
+    // instance
+    // JavaScript parent constructor function, same as instanceof
+    // { instance: Array }
 
-#### instance
+    // match
+    // JavaScript string regex match
+    // { match: /abcde/ }
 
-JavaScript parent constructor function, same as instanceof
+    // notMatch
+    // opposite of match
+    // { notMatch: /abcde/ }
 
-#### match
+    // isEmail
+    // whether the parameter matches /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+$/
+    // { isEmail: true }
 
-JavaScript string regex match
-
-#### notMatch
-
-opposite of match
-
-#### optional
-
-Whether that parameter can be undefined, defaults to false
+    // optional
+    // whether the parameter can be undefined
+    // { optional: true }
 
 ## Contribute
 
