@@ -77,6 +77,12 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.0.5
+
+- [Feature] add parameter not null check
+- [Feature] add parameter not empty check
+- [Refactor] split tests into one file per rule
+
 0.0.4
 
 - [Feature] add parameter regex match check
