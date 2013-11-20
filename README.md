@@ -51,6 +51,12 @@ JavaScript string regex match
 
 opposite of match
 
+#### isEmail
+
+whether the parameter matches
+
+    /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+$/
+
 #### optional
 
 Whether that parameter can be undefined, defaults to false
