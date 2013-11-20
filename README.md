@@ -59,6 +59,10 @@ And call it:
     // whether the parameter matches /^https?:\/\/[a-zA-Z0-9\/._-]+$/
     // { isUrl: true }
 
+    // notNull
+    // whether the parameter cannot be null
+    // { notNull: true }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
