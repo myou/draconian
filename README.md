@@ -69,6 +69,15 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.0.4
+
+- [Feature] add parameter regex match check
+- [Feature] add parameter regex not match check
+- [Feature] add parameter is email check
+- [Feature] add parameter is url check
+- [Docs] fix erroneous function result in API doc
+- [Docs] improve API doc format
+
 0.0.3
 
 - [Feature] add parameter instance checking
