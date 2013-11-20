@@ -30,7 +30,7 @@ Draconiian'ize a function by doing the following:
 
 And call it:
 
-    testFunc(1, 2, 'hi'); // ouputs 12hi
+    testFunc(1, 2, 'hi'); // ouputs 3hi
     testFunc(1, 2, 3); // exception!
 
 ### Parameter Options
