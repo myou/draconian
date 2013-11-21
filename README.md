@@ -101,6 +101,14 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.0.7
+
+- [Feature] add parameter min check
+- [Feature] add parameter max check
+- [Feature] add parameter range check
+- [Refactor] adjust error messages wordings
+- [Docs] minor example rule modification
+
 0.0.6
 
 - [Feature] add parameter is in check
