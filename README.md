@@ -80,8 +80,12 @@ And call it:
     // { len: [2, 5] }
 
     // min
-    // whether the parameter is above min value
-    // { min: 3 }
+    // whether the parameter is above or equal to min value
+    // { min: 0 }
+
+    // max
+    // whether the parameter is below or equal to max value
+    // { max: 0 }
 
     // optional
     // whether the parameter can be undefined
