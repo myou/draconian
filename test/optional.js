@@ -6,12 +6,8 @@ var Drac = require('../');
 describe('type rules with optional parameters', function() {
   var testFunc = Drac.define({
     params: {
-      num1: {
-        type: 'number'
-      },
-      num2: {
-        type: 'number'
-      },
+      num1: { type: 'number' },
+      num2: { type: 'number' },
       str: {
         type: 'string',
         optional: true
