@@ -71,6 +71,10 @@ And call it:
     // whether the parameter is one of predefined values
     // { isIn: ['hello', 3, false] }
 
+    // notIn
+    // whether the parameter is not one of predefined values
+    // { notIn: ['hello', 3, false] }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
