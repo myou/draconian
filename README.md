@@ -89,6 +89,12 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.0.6
+
+- [Feature] add parameter is in check
+- [Feature] add parameter not in check
+- [Feature] add parameter len check
+
 0.0.5
 
 - [Feature] add parameter not null check
@@ -106,7 +112,7 @@ contact the author Max You at max.you15@gmail.com
 
 0.0.3
 
-- [Feature] add parameter instance checking
+- [Feature] add parameter instance check
 
 0.0.2
 
@@ -116,4 +122,4 @@ contact the author Max You at max.you15@gmail.com
 
 0.0.1
 
-- [Feature] add parameter type checking
+- [Feature] add parameter type check
