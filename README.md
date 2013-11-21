@@ -95,6 +95,10 @@ And call it:
     // whether the parameter can be converted to date
     // { isDate: true }
 
+    // isISODate
+    // whether the parameter is an ISO date string
+    // { isISODate: true }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
