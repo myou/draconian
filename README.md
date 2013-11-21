@@ -87,6 +87,10 @@ And call it:
     // whether the parameter is below or equal to max value
     // { max: 0 }
 
+    // range
+    // whether the parameter is inside (inclusive) range
+    // { range: [-5, 5] }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
