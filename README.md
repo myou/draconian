@@ -109,6 +109,11 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.0.8
+
+- [Feature] add parameter is date check
+- [Feature] add parameter is ISO date string check
+
 0.0.7
 
 - [Feature] add parameter min check
