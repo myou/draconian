@@ -67,6 +67,10 @@ And call it:
     // whether the parameter cannot be empty
     // { notEmpty: true }
 
+    // isIn
+    // whether the parameter is one of predefined values
+    // { isIn: ['hello', 3, false] }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
