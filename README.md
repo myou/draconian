@@ -75,6 +75,10 @@ And call it:
     // whether the parameter is not one of predefined values
     // { notIn: ['hello', 3, false] }
 
+    // len
+    // whether the parameter length is within predefined range
+    // { len: [2, 5] }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }

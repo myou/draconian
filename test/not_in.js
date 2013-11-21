@@ -6,7 +6,7 @@ var Drac = require('../');
 describe('not in rules', function() {
   var testFunc = Drac.define({
     params: {
-      name: { notIn: ['hello', 3, false] },
+      name: { notIn: ['hello', 3, false] }
     }
   }, function(name) { return 'name: ' + name; });
 
