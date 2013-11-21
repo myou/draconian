@@ -91,6 +91,10 @@ And call it:
     // whether the parameter is inside (inclusive) range
     // { range: [-5, 5] }
 
+    // isDate
+    // whether the parameter can be converted to date
+    // { isDate: true }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
