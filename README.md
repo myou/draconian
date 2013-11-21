@@ -79,6 +79,10 @@ And call it:
     // whether the parameter length is within predefined range
     // { len: [2, 5] }
 
+    // min
+    // whether the parameter is above min value
+    // { min: 3 }
+
     // optional
     // whether the parameter can be undefined
     // { optional: true }
