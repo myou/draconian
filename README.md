@@ -18,7 +18,7 @@ To contribute as a developer, you'll need Mocha for run the tests via:
 
 ## API
 
-Draconiian'ize a function by doing the following:
+Draconian'ize a function by doing the following:
 
     // non-named parameter functions
     var regularFunc = Drac.define({
