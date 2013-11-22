@@ -125,6 +125,10 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.1.0
+
+- [Feature] enable async-style named parameter functions
+
 0.0.8
 
 - [Feature] add parameter is date check
