@@ -17,7 +17,7 @@
   ],
   "author": "Max You <max.you15@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "chai": "*"
   }
 }
