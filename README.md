@@ -20,18 +20,34 @@ To contribute as a developer, you'll need Mocha for run the tests via:
 
 Draconiian'ize a function by doing the following:
 
-    var testFunc = Drac.define({
+    // non-named parameter functions
+    var regularFunc = Drac.define({
       params: {
         num1: { type: 'number' },
-        num2: { type: 'number' optional: true },
+        num2: { type: 'number', optional: true },
         str: { type: 'string' }
       }
     }, function(num1, num2, str) { return num1 + num2 + str; });
 
+    // named parameter functions
+    var asyncFunc = Drac.async({
+      params: {
+        num1: { type: 'number' },
+        num2: { type: 'number' },
+        str: { type: 'string' }
+      }
+    }, function(options, callback) {
+      var result = options.num1 + options.num2 + options.str;
+      return callback(null, result);
+    });
+
+    // NOTE: only strings are allowed for parameter names
+
 And call it:
 
-    testFunc(1, 2, 'hi'); // ouputs 3hi
-    testFunc(1, 2, 3); // exception!
+    regularFunc(1, 2, 'hi'); // ouputs 3hi
+    regularFunc(1, 2, 3); // exception!
+    asyncFunc({ num1: 1, num2: 2 }, function() {}); // exception!
 
 ### Parameter Options
 
