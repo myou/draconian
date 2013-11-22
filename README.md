@@ -21,7 +21,7 @@ To contribute as a developer, you'll need Mocha for run the tests via:
 Draconian'ize a function by doing the following:
 
     // non-named parameter functions
-    var regularFunc = Drac.define({
+    var regularFunc = Drac.regular({
       params: {
         num1: { type: 'number' },
         num2: { type: 'number', optional: true },
