@@ -125,6 +125,12 @@ contact the author Max You at max.you15@gmail.com
 
 ## Changelog
 
+0.1.1
+
+- [Feature] add Drac.regular shortcut for regular functions
+- [Feature] Drac.define now accepts a "style" attribute
+- [Chore] moved chai to development dependencies
+
 0.1.0
 
 - [Feature] enable async-style named parameter functions
